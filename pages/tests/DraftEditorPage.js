@@ -29,7 +29,7 @@ const DraftEditorPage = () => {
   }, []);
   return (
     <div>
-      <DraftEditor state={content} setState={setContent} />{" "}
+      {/* <DraftEditor state={content} setState={setContent} />{" "} */}
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Editor } from "react-draft-wysiwyg";
+// import { Editor } from "react-draft-wysiwyg";
 // import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 import {
   EditorState,
@@ -25,7 +25,7 @@ const DraftEditor = ({ state, setState }) => {
   return (
     <div>
       {" "}
-      {state && (
+      {/* {state && (
         <Editor
           editorState={state}
           onEditorStateChange={(e) => {
@@ -35,7 +35,7 @@ const DraftEditor = ({ state, setState }) => {
           wrapperClassName="wrapperClassName"
           editorClassName="editorClassName"
         />
-      )}{" "}
+      )} */}{" "}
     </div>
   );
 };

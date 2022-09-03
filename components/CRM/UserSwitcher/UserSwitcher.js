@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import Autosuggest from "react-autosuggest";
+// import Autosuggest from "react-autosuggest";
 import api from "apis/userAPI";
 const UserSwitcher = ({ onSelected = () => {}, initialValue }) => {
   const [suggestions, setSuggestions] = useState([]);
@@ -74,7 +74,7 @@ const UserSwitcher = ({ onSelected = () => {}, initialValue }) => {
   };
   return (
     <div className="relative">
-      <Autosuggest
+      {/* <Autosuggest
         suggestions={suggestions}
         onSuggestionsFetchRequested={onSuggestionsFetchRequested}
         onSuggestionsClearRequested={onSuggestionsClearRequested}
@@ -82,7 +82,7 @@ const UserSwitcher = ({ onSelected = () => {}, initialValue }) => {
         renderSuggestion={renderSuggestion}
         inputProps={inputProps}
         onSuggestionSelected={onSuggestionSelected}
-      />
+      /> */}
     </div>
   );
 };
